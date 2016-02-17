@@ -15,5 +15,9 @@ public class ConcreteClass implements TargetInterface {
         System.out.println("结束调用目标类的方法targetMethodB...");  
         return number;  
     }
+    
+    private int testMethod(String a, String b){
+    	return 0;
+    }
 
 }
